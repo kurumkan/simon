@@ -15,9 +15,9 @@ var btnData={"button-tl":new Howl({urls: ["http://s3.amazonaws.com/freecodecamp/
 			 "button-br":new Howl({urls: ["http://s3.amazonaws.com/freecodecamp/simonSound3.mp3"]}),
 			 "button-bl":new Howl({urls: ["http://s3.amazonaws.com/freecodecamp/simonSound4.mp3"]})};
 //sound to play on error			 
-var errorSound=new Howl({urls:["http://raw.githubusercontent.com/kurumkan/Test/master/error.mp3"]});
+var errorSound=new Howl({urls:["https://raw.githubusercontent.com/kurumkan/simon/master/error.mp3"]});
 //sound to play on victory
-var winSound=new Howl({urls:["http://raw.githubusercontent.com/kurumkan/Test/master/success.mp3"]});
+var winSound=new Howl({urls:["https://raw.githubusercontent.com/kurumkan/simon/master/success.mp3"]});
 //current level
 var level=0;
 //user input (in range 0-3 inclusive)
